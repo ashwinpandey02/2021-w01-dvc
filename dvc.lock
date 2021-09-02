@@ -7,8 +7,8 @@ stages:
       md5: 0691643e62f74624d19253d61990b74b
       size: 11323
     - path: params.yaml
-      md5: ab51e1421867c54222f2aeb7ccdf56e1
-      size: 495
+      md5: 7dc38bdf8fd0718573bb86f6b0ed4fba
+      size: 496
     - path: src/get_data.py
       md5: 09554b99a6e7e2d45b8b3040ea8a4596
       size: 1212
@@ -26,8 +26,8 @@ stages:
       md5: 7f7e38960a3a094106e6c308b9c67e26
       size: 11279
     - path: params.yaml
-      md5: ab51e1421867c54222f2aeb7ccdf56e1
-      size: 495
+      md5: 7dc38bdf8fd0718573bb86f6b0ed4fba
+      size: 496
     - path: src/split_data.py
       md5: 3d9122832543434ea40f29f23fed300b
       size: 1457
@@ -53,27 +53,27 @@ stages:
       md5: 6ebb9db6cb1c0d1fa47d22ada72644f4
       size: 9024
     - path: params.yaml
-      md5: ab51e1421867c54222f2aeb7ccdf56e1
-      size: 495
+      md5: 7dc38bdf8fd0718573bb86f6b0ed4fba
+      size: 496
     - path: src/train_and_evaluate.py
       md5: 01a6a13b6f6f8269cb7d76928f83f040
       size: 4774
     params:
       params.yaml:
-        train_and_evaluate.model: logistic_regression
+        train_and_evaluate.model: random_forest
     outs:
     - path: cm.csv
-      md5: c4cb6dbee0258214c2ce2d6311068e68
+      md5: 878d8bac11a175102099d9feeb0dac98
       size: 261
     - path: models/model.joblib
-      md5: a35c67d2f8e3f8a3aea3d5387200dc2d
-      size: 892
+      md5: a860af05923c37d9abed5829ffb64bf3
+      size: 332652
     - path: report/prc.json
-      md5: f465b60072625fbd0a790dcc35b75cd0
-      size: 261
+      md5: 106bd16acfc654e25439dc9803904cf4
+      size: 276
     - path: report/roc.json
-      md5: aca9f8d44777ebc72b6b24e19b6d5637
+      md5: ad22d546bb574d81a27c04d5596f3237
       size: 324
     - path: report/scores.json
-      md5: 864dcb528c2867f7ef9811088ca8c42d
-      size: 354
+      md5: f17d655c9542c4ca90a6df85bc9f1561
+      size: 357
